@@ -42,7 +42,7 @@ export const candidateSignIn = async (req, res, next) => {
 
 export const candidateSignOut = async (req, res, next) => {
   try {
-    res.status(200).json(customResponse(true, "Login successful! Welcome", {}));
+    res.status(200).json(customResponse(true, "Logout successfully ! Thank you", {}));
   } catch (error) {
     next(error);
   }
