@@ -21,7 +21,7 @@ app.use(
 );
 app.use(cookieParser());
 
-app.use("/api/candidate", candidateRoutes);
+app.use("/api/auth", candidateRoutes);
 
 app.use(errorHandler);
 
